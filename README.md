@@ -37,3 +37,9 @@ cd qbec
 make install  # installs lint tools etc.
 make
 ```
+
+### Testing CLA Assistant Lite
+[CLA Assistant Lite](https://github.com/marketplace/actions/cla-assistant-lite)
+```
+Contributors will need to sign the CLA before committing.
+```
