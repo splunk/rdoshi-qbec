@@ -42,4 +42,12 @@ make
 [CLA Assistant Lite](https://github.com/marketplace/actions/cla-assistant-lite)
 ```
 Contributors will need to sign the CLA before committing.
+
+# explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
+
 ```
