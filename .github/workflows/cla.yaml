@@ -6,6 +6,14 @@ on:
   pull_request_target:
     types: [ opened, closed, synchronize ]
 
+# https://github.com/marketplace/actions/cla-assistant-lite
+# explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+  statuses: write
+
 jobs:
   ContributorLicenseAgreement:
     runs-on: ubuntu-latest
