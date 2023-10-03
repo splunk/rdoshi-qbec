@@ -9,10 +9,10 @@ on:
 # https://github.com/marketplace/actions/cla-assistant-lite
 # explicitly configure permissions, in case your GITHUB_TOKEN workflow permissions are set to read-only in repository settings
 permissions:
-  actions: write
-  contents: write
+  actions: read
+  contents: read
   pull-requests: write
-  statuses: write
+  statuses: read
 
 jobs:
   ContributorLicenseAgreement:
