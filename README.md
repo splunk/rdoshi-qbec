@@ -37,3 +37,7 @@ cd qbec
 make install  # installs lint tools etc.
 make
 ```
+
+### Sign the CLA
+
+Follow the steps here [cla-assistant](https://github.com/splunk/cla-agreement)
